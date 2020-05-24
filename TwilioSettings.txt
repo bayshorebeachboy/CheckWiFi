@@ -1,0 +1,7 @@
+Twilio Account Settings
+
+Account Sid    AC81190e5d544d972d88ca6a3c1be682bf
+
+Auth Token     e3f010a1888995014ec92bf064f4c06c
+
+Number (541) 393-8714

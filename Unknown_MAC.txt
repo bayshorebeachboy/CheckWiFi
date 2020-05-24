@@ -1,0 +1,10 @@
+Un-known MAC 4/18/18
+0:bb:3a:62:1d:40 on 10.0.015
+
+Unknown MAC:IP 0:bb:3a:62:1d:40:(10.0.1.15) has been detected : 2018-04-18 06:27:58.999005
+
+Search results for "00:bb:3a:62:1d:40"
+MAC 00BB3A
+Vendor Private
+
+OUI: 00:BB:3A - AmazonTe Amazon Technologies Inc.

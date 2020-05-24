@@ -1,0 +1,5 @@
+ip exceptions
+
+169.x.x.x could not get address from DHCP 
+224.x.x.x multicast
+255.255.255.255 broadcast form host (this network)
