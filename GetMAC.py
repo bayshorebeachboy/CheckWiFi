@@ -26,13 +26,13 @@ server = smtplib.SMTP( "smtp.gmail.com", 587 )
 
 server.starttls()
 
-server.login( 'nealm040@gmail.com', 'DuneGirl$4' )
+server.login( 'xxxxxxxxx', 'xxxxxxxxxxx' )
 
 
 #twillioSid = "AC81190e5d544d972d88ca6a3c1be682bf"
 #twilioToken = "e3f010a1888995014ec92bf064f4c06c"
 #twilioNumber = "+15413938714"
-#myCell = "+15418706584"
+#myCell = "+"
 #twilioCli = Client(twillioSid, twilioToken)
 os.system("arp -a| grep -v 'incomplete' > /Users/Neal/Desktop/CheckWiFi/macs.out")
 
@@ -79,7 +79,7 @@ for line in theLines:
             # Send text message through SMS gateway of destination number
             theMsg = 'Unknown MAC:IP ' + theMac + ':' + theIP + ' has been detected'
             print('The message is :', theMsg)
-            server.sendmail( 'Check Wi-Fi', '5418706584@mms.att.net', 'Unknown MAC Detected')            
+            server.sendmail( 'Check Wi-Fi', '5xxxxxxx@mms.att.net', 'Unknown MAC Detected')            
             #theMsg = 'Unknown MAC:IP ' + theMac + ':' + theIP + ' has been detected'
             msgbox(theMsg, "Scan Warning")
     
